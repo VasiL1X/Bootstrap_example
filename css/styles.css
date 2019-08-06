@@ -2,12 +2,22 @@
 	background: linear-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)), 
 	url('http://bit.ly/2fBj6OJ') 0% 0%/ cover
 }
+#part-3 {
+  background: linear-gradient(rgba(100,181,246 ,0.3), rgba(0,0,0,0.8)),
+  url(http://bit.ly/2xMHeVk) 0% 0%/cover;
+}
 .fill-viewport {
-	min-height: 100vh
+	min-height: 100vh;
 }
 .text-white-70 {
 	color: rgba(255,255,255,0.7);
 }
+.text-white-40 {
+	color: rgba(255,255,255,0.4);
+}
 .text-black-40 {
 	color: rgba(0,0,0,0.4);
+}
+.fill-80-viewport {
+	min-height: 80vh
 }
