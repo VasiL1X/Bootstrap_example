@@ -18,6 +18,22 @@
 .text-black-40 {
 	color: rgba(0,0,0,0.4);
 }
+.text-black-70 {
+	color: rgba(0,0,0,0.7);
+}
 .fill-80-viewport {
 	min-height: 80vh
+}
+.fill-40-viewport {
+	min-height: 40vh
+}
+.list-border-y li {
+	border-top: 1px solid;
+}
+.list-border-y li:last-child {
+	border-bottom: 1px solid;
+}
+.list-border-black-20 li,
+.list-border-black-20 li:last-child {
+	border-color: rgba(0,0,0,0.2);
 }
